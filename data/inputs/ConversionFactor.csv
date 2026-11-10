@@ -1,0 +1,40 @@
+No,Energy,Original Unit,Multiplier Factor to BOE
+1,Coal,,
+2,Anthracite,Ton,4.9893
+3,Imported Coal,Ton,4.2766
+4,Kalimantan Coal,Ton,4.2
+5,Ombilin Coal,Ton,4.8452
+6,Tanjung Enim Coal,Ton,3.7778
+7,Lignite ,Ton,3.0649
+8,Riau Peat,Ton,2.5452
+9,Briquette,Ton,3.5638
+10,Biomass,,
+11,Charcoal,Ton,4.9713
+12,Firewood,Ton,2.2979
+13,Natural Gas,MSCF,0.1796
+14,Gas Products ,,
+15,City Gas ,Thousand Kcal,0.0007
+16,CNG,Thousand Kcal,0.0007
+17,LNG,Ton,8.0532
+18,LNG,MMBTU,0.1796
+19,LPG,Ton,8.5246
+20,Oil,,
+21,Condensate,Barrel,0.9545
+22,Crude Oil,Barrel,1.0
+23,Oil Fuel,,
+24,Aviation Gasoil (Avgas),Kilo Liter,5.553
+25,Aviation Turbine Gas (Avtur),Kilo Liter,5.8907
+26,Super TT,Kilo Liter,5.8275
+27,Premix,Kilo Liter,5.8275
+28,Premium,Kilo Liter,5.8275
+29,Kerosene,Kilo Liter,5.9274
+30,Gasoil,Kilo Liter,6.4871
+31,MDF,Kilo Liter,6.6078
+32,FO,Kilo Liter,6.9612
+33,Oil Products,,
+34,Other Oil Products,Barrel,1.02
+35,Refinery Fuel,,
+36,Refinery Fuel Gas (RFG),Barrel,1.6728
+37,Refinery Fuel Oil (RFO),Barrel,1.1236
+38,Feed Stock,Barrel,1.0423
+39,Electric Power,MWh,0.613

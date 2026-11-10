@@ -1,0 +1,5 @@
+year,category,gwh,unit,source_title,source_section,source_url,source_note
+2020,industry,88372,GWh,Handbook of Energy and Economic Statistics of Indonesia 2021,5.1.1,https://www.esdm.go.id/assets/media/content/content-handbook-of-energy-and-economic-statistics-of-indonesia-2021.pdf,2020 revised values industry sector electricity consumption
+2020,household,112754,GWh,Handbook of Energy and Economic Statistics of Indonesia 2021,5.2.1,https://www.esdm.go.id/assets/media/content/content-handbook-of-energy-and-economic-statistics-of-indonesia-2021.pdf,2020 revised values household electricity consumption
+2020,commercial,58159,GWh,Handbook of Energy and Economic Statistics of Indonesia 2021,5.3.1,https://www.esdm.go.id/assets/media/content/content-handbook-of-energy-and-economic-statistics-of-indonesia-2021.pdf,2020 revised values commercial sector electricity consumption
+2020,transport,292,GWh,Handbook of Energy and Economic Statistics of Indonesia 2021,5.4.1,https://www.esdm.go.id/assets/media/content/content-handbook-of-energy-and-economic-statistics-of-indonesia-2021.pdf,2020 revised values transportation sector electricity consumption

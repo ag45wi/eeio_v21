@@ -1,0 +1,124 @@
+{
+  "release": "v2-source-data",
+  "source_archive": "data.zip (2026-11-10 user supplied)",
+  "notes": "Hashes certify exact bytes of the files provided to the research package; they are not independent verification of BPS source accuracy or redistribution permission.",
+  "files": {
+    "data/inputs/2016/FinalEnergyConsumption.csv": {
+      "sha256": "8804b36cf8c1cccaaa3ab6974a69012f2f43825a68b20d078737db9567f8e189",
+      "bytes": 869,
+      "source_archive_path": "data/2016/FinalEnergyConsumption.csv",
+      "published_path": "data/inputs/2016/FinalEnergyConsumption.csv",
+      "records_excluding_first_line": 12,
+      "first_line_columns": 11,
+      "type": "auxiliary_source_or_context"
+    },
+    "data/inputs/2016/io_ind_2016.csv": {
+      "sha256": "30b218150eab18777015dc7e3e25f65c0c69769519eb72fe2de468b595ef1a6c",
+      "bytes": 158787,
+      "source_archive_path": "data/2016/io_ind_2016.csv",
+      "published_path": "data/inputs/2016/io_ind_2016.csv",
+      "records_excluding_first_line": 194,
+      "first_line_columns": 207,
+      "type": "io_185_product",
+      "product_columns_001_185_present": true,
+      "rows_with_sector_code_001_185": 185
+    },
+    "data/inputs/2016/io_ind_2016_domestic.csv": {
+      "sha256": "924e8f147e226282d1ec5402231b47107a0216ba4e095a012240f5ade5f1105d",
+      "bytes": 156044,
+      "source_archive_path": "data/2016/io_ind_2016_domestic.csv",
+      "published_path": "data/inputs/2016/io_ind_2016_domestic.csv",
+      "records_excluding_first_line": 194,
+      "first_line_columns": 207,
+      "type": "io_185_product",
+      "product_columns_001_185_present": true,
+      "rows_with_sector_code_001_185": 185
+    },
+    "data/inputs/2020/input_fec_2020.csv": {
+      "sha256": "21cb088bbad3db370b155d98a4930420359295a42e0143f3fa23d2a3563343a4",
+      "bytes": 66,
+      "source_archive_path": "data/2020/input_fec_2020.csv",
+      "published_path": "data/inputs/2020/input_fec_2020.csv",
+      "records_excluding_first_line": 3,
+      "first_line_columns": 3,
+      "type": "auxiliary_source_or_context"
+    },
+    "data/inputs/2020/io_ind_2020.csv": {
+      "sha256": "d392d53dfe26f8a4644782cfcb3fd92024f10c5da14eb70080577ae2f0f25aae",
+      "bytes": 205947,
+      "source_archive_path": "data/2020/io_ind_2020.csv",
+      "published_path": "data/inputs/2020/io_ind_2020.csv",
+      "records_excluding_first_line": 194,
+      "first_line_columns": 207,
+      "type": "io_185_product",
+      "product_columns_001_185_present": true,
+      "rows_with_sector_code_001_185": 185
+    },
+    "data/inputs/2020/io_ind_2020_domestic.csv": {
+      "sha256": "8843e1300e091c3150f150cbb92976ed419c336f5a4d0198987296044d6b45ca",
+      "bytes": 154741,
+      "source_archive_path": "data/2020/io_ind_2020_domestic.csv",
+      "published_path": "data/inputs/2020/io_ind_2020_domestic.csv",
+      "records_excluding_first_line": 194,
+      "first_line_columns": 207,
+      "type": "io_185_product",
+      "product_columns_001_185_present": true,
+      "rows_with_sector_code_001_185": 185
+    },
+    "data/inputs/2020/io_ind_2020_total_BPS_verified.csv": {
+      "sha256": "80bfaa2ed8f9e4cfc98da617a2182272a722af0e1c7f4fa5f558368f4ec69832",
+      "bytes": 157362,
+      "source_archive_path": "data/2020/io_ind_2020_total_BPS_verified.csv",
+      "published_path": "data/inputs/2020/io_ind_2020_total_BPS_verified.csv",
+      "records_excluding_first_line": 194,
+      "first_line_columns": 207,
+      "type": "io_185_product",
+      "product_columns_001_185_present": true,
+      "rows_with_sector_code_001_185": 185
+    },
+    "data/inputs/2020/note_io 2020.txt": {
+      "sha256": "080286385d27c631a5e776d395546a3ba3677d4c19a26ca8cc393b5daf489328",
+      "bytes": 96,
+      "source_archive_path": "data/2020/note_io 2020.txt",
+      "published_path": "data/inputs/2020/note_io 2020.txt",
+      "type": "source_version_note"
+    },
+    "data/inputs/ConversionFactor.csv": {
+      "sha256": "2380f54a1d982fe0fbead39e63b7abb9365a568ce1dfb15541f1f0295a7238f9",
+      "bytes": 1095,
+      "source_archive_path": "data/ConversionFactor.csv",
+      "published_path": "data/inputs/ConversionFactor.csv",
+      "records_excluding_first_line": 39,
+      "first_line_columns": 4,
+      "type": "auxiliary_source_or_context"
+    },
+    "data/inputs/DirectCO2EmmisionFactor.csv": {
+      "sha256": "1dc5323c77e49d24f534400321ef1066698d98ce015072772e05b47272f7208f",
+      "bytes": 194,
+      "source_archive_path": "data/DirectCO2EmmisionFactor.csv",
+      "published_path": "data/inputs/DirectCO2EmmisionFactor.csv",
+      "records_excluding_first_line": 4,
+      "first_line_columns": 3,
+      "type": "auxiliary_source_or_context"
+    }
+  },
+  "deduplicated_exact_duplicates": [
+    {
+      "omitted": "data/2020/io_ind_2020__.csv",
+      "retained": "data/2020/io_ind_2020_total_BPS_verified.csv",
+      "sha256": "80bfaa2ed8f9e4cfc98da617a2182272a722af0e1c7f4fa5f558368f4ec69832"
+    },
+    {
+      "omitted": "data/2020/io_ind_2020__ORG.csv",
+      "retained": "data/2020/io_ind_2020.csv",
+      "sha256": "d392d53dfe26f8a4644782cfcb3fd92024f10c5da14eb70080577ae2f0f25aae"
+    }
+  ],
+  "io_2020_legacy_vs_author_verified": {
+    "numeric_cells_different": 106,
+    "sign_only_differences": 106,
+    "other_numeric_differences": 0,
+    "header_labels_different": 8,
+    "note": "Differences are descriptive only; no source file was corrected or modified during packaging."
+  }
+}
