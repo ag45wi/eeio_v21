@@ -2,7 +2,7 @@
 
 Research companion to *A Scenario-Driven Environmentally Extended Input–Output Framework for Sectoral Decarbonization Policy Analysis in Indonesia* (manuscript in preparation).
 
-The repository preserves the **original scenario-processing and EEIO calculation code** supplied by the authors while organizing the manuscript experiments, tests, and the newly supplied 2016/2020 IO and energy-source inputs. The accompanying MySQL scripts initialize a **research-only database**, not the operational website.
+The repository preserves the **original scenario-processing and EEIO calculation code** during the manuscript experiments, tests, and the 2016/2020 IO and energy-source inputs. The accompanying MySQL scripts initialize a **research-only database**, not the operational website.
 
 > **Publication status: release candidate, not a validated numerical reproduction.** Input integrity, synthetic invariants, and two data-backed exploratory tests have been checked. **The original manuscript RQ1–RQ4 experiments have not been rerun against a live local MariaDB research instance**, and the author-provided 2020 legacy/verified IO files are not interchangeable. Obtain software-ownership and data-redistribution approval before publishing this repository publicly.
 
