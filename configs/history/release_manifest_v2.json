@@ -1,0 +1,44 @@
+{
+  "release": "v2.0-prepublication-research-package",
+  "prepared": "2026-11-10",
+  "purpose": "git-ready research code, exact source inputs and scrubbed research-only MySQL schema",
+  "state": "offline + domestic IO tests passed; live manuscript numerical replay and SQL import unverified",
+  "baseline_branch": "Legacy RQ1-RQ4 original v2.1 code; alternative Request #7 not a replacement",
+  "important_paths": {
+    "README.md": {
+      "sha256": "372db9ab00a4843d1efc91b61676e3026aaa9728503e8c0908211cf4997c99c7",
+      "bytes": 12678
+    },
+    "run_experiments.py": {
+      "sha256": "fc3fa2266251985fbb0cd8bb6ffbe07d395c2f9aa3594d6f4ba8b61c0f56b6f2",
+      "bytes": 12556
+    },
+    "scripts/data_tools.py": {
+      "sha256": "6372bc41adc337a498683aa1aca302bc70ff88f7633d81818c002057a896e87c",
+      "bytes": 7357
+    },
+    "database/research_schema.sql": {
+      "sha256": "e78246555540aa0fbb422bde4fc1a2b02073332a19316cbf75256f61adf328b0",
+      "bytes": 12771
+    },
+    "database/research_seed.sql": {
+      "sha256": "f10c27c9759152f67402e291781523eaffd476bc28624c3a18ded95bd98a80d4",
+      "bytes": 13568
+    },
+    "data/metadata/input_manifest.json": {
+      "sha256": "b28a7e6289cb05ef8ae0be2738b170add8e1cfdc22deff6c11855115b1892693",
+      "bytes": 5421
+    },
+    "data/metadata/buffer_inventory.json": {
+      "sha256": "9a789c30b65405f68ab6024bd8d680b27c509d49e82e057a4d26781ca77a3d11",
+      "bytes": 13754
+    },
+    "docs/VERIFICATION_STATUS.md": {
+      "sha256": "2a658272f6629ca7d5683cb12ab1b4149aaf2884f5063715efda79f440938573",
+      "bytes": 3595
+    }
+  },
+  "input_hashes": "data/metadata/input_manifest.json",
+  "source_script_hashes": "configs/original_source_manifest.json",
+  "sql_policy": "19 non-user schema tables and 7 lookup/reference seed tables; no original dump/history/users"
+}

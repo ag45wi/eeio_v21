@@ -1,0 +1,297 @@
+{
+  "source_archive": "eeio-2.1_batch_py.zip",
+  "original_files": 36,
+  "note": "Original SHA-256 and AST checksums document the research-provenance snapshot. Cross-platform verification uses published_lf_sha256, pinned to the released files and independent of Python ast.dump differences and Windows/Linux line endings. Five sanitized Python files retain their original Python 3.13 AST metadata; live manuscript replication remains pending.",
+  "files": {
+    "_01_scenario_batch_v21_fuel_audit.py": {
+      "original_sha256": "a1fe3a0adc8403eaae8390e8ca1f8515ac98061a3b99cca0c489ee07dd28eba2",
+      "path": "experiments/manuscript/_01_scenario_batch_v21_fuel_audit.py",
+      "bytes": 169793,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "62334cb800a377d6b274c4d22d3a09b40a288692de288b045d56d71b7925223a",
+      "published_lf_sha256": "a1fe3a0adc8403eaae8390e8ca1f8515ac98061a3b99cca0c489ee07dd28eba2"
+    },
+    "_02_scenario_batch_v21_fuel_mapping_audit.py": {
+      "original_sha256": "251fd6050cad72605a352a79e36734dfb8c307bb1ec313c79da79fa7ddaa9c7a",
+      "path": "experiments/manuscript/_02_scenario_batch_v21_fuel_mapping_audit.py",
+      "bytes": 174460,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "c01b4971d754442016bdcd7eb38d8e16e9e9f4c9e75d230e71504c8f003a8b5c",
+      "published_lf_sha256": "251fd6050cad72605a352a79e36734dfb8c307bb1ec313c79da79fa7ddaa9c7a"
+    },
+    "_03_manuscript_baseline_audit_v21.py": {
+      "original_sha256": "400d42950b3b6d37fcddcb7015eb29b72adbdfd6962293df9a91e56145c57d1c",
+      "path": "experiments/manuscript/_03_manuscript_baseline_audit_v21.py",
+      "bytes": 17067,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "98f6eb1409f097b6d1457fb43ef629a74c40d198e1b8bf21622432d75247959d",
+      "published_lf_sha256": "400d42950b3b6d37fcddcb7015eb29b72adbdfd6962293df9a91e56145c57d1c"
+    },
+    "_04_manuscript_accounting_boundary_audit_v21.py": {
+      "original_sha256": "e0dd3401cd1c05801aadf25094420ff3dbb94e786a7dd81131fdcc57c5b37c3f",
+      "path": "experiments/manuscript/_04_manuscript_accounting_boundary_audit_v21.py",
+      "bytes": 10949,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "9430557f526ecbc0beb5e2c9b8d12e4ffb7ccd6f091ad1823277d58198424668",
+      "published_lf_sha256": "e0dd3401cd1c05801aadf25094420ff3dbb94e786a7dd81131fdcc57c5b37c3f"
+    },
+    "_05_manuscript_io_final_demand_audit_v21.py": {
+      "original_sha256": "c437209e9d9a17f84c15f607abc7958689f34d50c949635b4752068219cd648a",
+      "path": "experiments/manuscript/_05_manuscript_io_final_demand_audit_v21.py",
+      "bytes": 10299,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "df52218f850cc121d3d1ec8d6b7e1c749febf1e441fc4ee0cfaee107f721d675",
+      "published_lf_sha256": "c437209e9d9a17f84c15f607abc7958689f34d50c949635b4752068219cd648a"
+    },
+    "_06x_manuscript_io_import_bridge_audit_v21.py": {
+      "original_sha256": "e5d38dd466f77a1daff7a497417d9bf0122e2797915bb9a0c778561cd815d913",
+      "path": "experiments/manuscript/_06x_manuscript_io_import_bridge_audit_v21.py",
+      "bytes": 10616,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "207193de3ffa09f4acf937aff73ddcea2d02ad24cf6229fbf53ceb925fd3e622",
+      "published_lf_sha256": "e5d38dd466f77a1daff7a497417d9bf0122e2797915bb9a0c778561cd815d913"
+    },
+    "_07_manuscript_domestic_vs_total_io_audit_v21.py": {
+      "original_sha256": "8cbd344077608be4f2e8a296781e1c3dc4444640b36c1e2ca53b68626523c7bc",
+      "path": "experiments/manuscript/_07_manuscript_domestic_vs_total_io_audit_v21.py",
+      "bytes": 9931,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "e979e62949e67f57d581bff4a983d360ff42a46efe935b8f07a3f8ba3e9051ea",
+      "published_lf_sha256": "8cbd344077608be4f2e8a296781e1c3dc4444640b36c1e2ca53b68626523c7bc"
+    },
+    "_08_request7_domestic_eeio_v21.py": {
+      "original_sha256": "f4ca6bb2e14b112e220b0f514d5a36b1a233255a638897ca7be493582c26e369",
+      "path": "experiments/legacy/_08_request7_domestic_eeio_v21.py",
+      "bytes": 31770,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "c89ff5ac803ddf9e5eb157d8a7940ddec6443c79f7eb26f1d2ca745a4b39655f",
+      "published_lf_sha256": "f4ca6bb2e14b112e220b0f514d5a36b1a233255a638897ca7be493582c26e369"
+    },
+    "_09_request7_stage2_environmental_audit_v21.py": {
+      "original_sha256": "d647891c28cb0f3be5858e957c3850900cfcc32557019d04ff190f70d07fa68e",
+      "path": "experiments/legacy/_09_request7_stage2_environmental_audit_v21.py",
+      "bytes": 35716,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "cf5936e9e5d1fef64d5d132806790474c047b3fc32f615501bf188e76a3ba7c4",
+      "published_lf_sha256": "d647891c28cb0f3be5858e957c3850900cfcc32557019d04ff190f70d07fa68e"
+    },
+    "_10_request7_stage3_heesi_enduse_v21.py": {
+      "original_sha256": "c3be18c7c7508e54dfadde3798fd94689cc2ede4a5a55d2a3fe6fbb3d2c7b887",
+      "path": "experiments/legacy/_10_request7_stage3_heesi_enduse_v21.py",
+      "bytes": 38175,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "d618b4ac590dea0480a359f9840b6869643f12c2b2b136ff27ac015fbd2a37e2",
+      "published_lf_sha256": "c3be18c7c7508e54dfadde3798fd94689cc2ede4a5a55d2a3fe6fbb3d2c7b887"
+    },
+    "_11_request7_stage3b_mapping_evidence_audit_v21.py": {
+      "original_sha256": "9e63a2ba79f0ca7bc6a5956dfbb18263990e4c5e7b9220d58892f9cd5da94626",
+      "path": "experiments/legacy/_11_request7_stage3b_mapping_evidence_audit_v21.py",
+      "bytes": 32138,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "ff8f255c5059511fc08b9e62d371ee720145b3f1837027003386605eebde3b22",
+      "published_lf_sha256": "9e63a2ba79f0ca7bc6a5956dfbb18263990e4c5e7b9220d58892f9cd5da94626"
+    },
+    "_12_request7_baseline_readonly_probe.py": {
+      "original_sha256": "4a061bc1bffa5345d49ed5affae62bf5171535e30d6b3e543fe201e5bfff9aa8",
+      "path": "experiments/legacy/_12_request7_baseline_readonly_probe.py",
+      "bytes": 12704,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "f501d705fcde40d8ba40c084a3c81ad137e05ab06ebe9984b70cf5cc73cc75d3",
+      "published_lf_sha256": "4a061bc1bffa5345d49ed5affae62bf5171535e30d6b3e543fe201e5bfff9aa8"
+    },
+    "app.py": {
+      "original_sha256": "6f7230305fbfed3a0f9ea2b082be973cf8971409f4fa3d08fdd2568846d90873",
+      "path": "src/app.py",
+      "bytes": 34730,
+      "status": "unchanged Python AST; non-executable internal URL/path comments redacted",
+      "original_ast_sha256": "2154dd3e32123f3ff48abeeb865a200b2ae4aa606bf719985e550c41809b52b7",
+      "published_lf_sha256": "9817d7cdb96d06fc6f519836eadd8692cb201b1ebc553aea1802488fec8bb0c7"
+    },
+    "config_scenario.py": {
+      "original_sha256": "0ce590ca7268094f979aef0d3f0364b17c7aba40fabba9fd7bdf68877ea9aa0f",
+      "path": "src/config_scenario.py",
+      "bytes": 3151,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "cca712c3745d52e00c2b983656b1a5aaa2c238f9090d71677ef642832011686f",
+      "published_lf_sha256": "9b5af7d85d48b3dd6f68618aedecfa630c9888a5579dd25351692d3313204736"
+    },
+    "eeio_engine.py": {
+      "original_sha256": "384596d74c4893e3855c8941b4e3b581a9a38253f7c2f3bbc02c10a439bf95dc",
+      "path": "src/eeio_engine.py",
+      "bytes": 56649,
+      "status": "unchanged Python AST; non-executable internal URL/path comments redacted",
+      "original_ast_sha256": "78b618e827deb2450625fb8c4504a6e79f6e5a34b238d50f94e2d10baa639d0d",
+      "published_lf_sha256": "da5694a999138ae32ad524528e35de46a665babae74152afac2facbb1235aecc"
+    },
+    "manufacturing_factor_catalog.py": {
+      "original_sha256": "b543863832d0ecbcda987a3122e21f193b7fb4af039b86e585650a5b80719523",
+      "path": "src/manufacturing_factor_catalog.py",
+      "bytes": 1968,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "464862bed32dc5cd81b3499b4cb767b5493cdcc79930adc1d35420a2429a3dfe",
+      "published_lf_sha256": "b543863832d0ecbcda987a3122e21f193b7fb4af039b86e585650a5b80719523"
+    },
+    "manufacturing_readonly_loader.py": {
+      "original_sha256": "c85fa1440aecab61205195f88f3ef39d32648a82541a06df84603da340a8beb8",
+      "path": "src/manufacturing_readonly_loader.py",
+      "bytes": 7475,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "ec092581d6f59f8d97f96ba95bdaaf9f480404af51879acb71787cc86f213982",
+      "published_lf_sha256": "c85fa1440aecab61205195f88f3ef39d32648a82541a06df84603da340a8beb8"
+    },
+    "manufacturing_research_core.py": {
+      "original_sha256": "04e0a616424b7a545ee420a3aae7b80869cab3372ba557b119ad849edfa2d1fe",
+      "path": "src/manufacturing_research_core.py",
+      "bytes": 9539,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "ef8092bd571a8f5612dc719b39dbfaf97fbe80cdd0a804827d9187c8fd8b8ccb",
+      "published_lf_sha256": "04e0a616424b7a545ee420a3aae7b80869cab3372ba557b119ad849edfa2d1fe"
+    },
+    "manufacturing_research_routes.py": {
+      "original_sha256": "02b2ac7f96b9a900446454efd4201002c891719cc55b79f96d41509a7a79278e",
+      "path": "src/manufacturing_research_routes.py",
+      "bytes": 7333,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "c0543f27eca71d804712c634c90bb7d8c2305a557a1815b278ae8e5059eac3c4",
+      "published_lf_sha256": "02b2ac7f96b9a900446454efd4201002c891719cc55b79f96d41509a7a79278e"
+    },
+    "scenario_batch_v21.py": {
+      "original_sha256": "69b7c0b8d33287204bec39f8be0d04d3d6e4e209ed2e385b0d42fd6c03ec579d",
+      "path": "experiments/manuscript/scenario_batch_v21.py",
+      "bytes": 147605,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "2c8d2931169abbcaf3b849f09d36f3df55d73870a4eda615368f75a495e7f944",
+      "published_lf_sha256": "f783b1c5b8dd71bf34492ea3444e1c6fb79bfe7430bfcbc80cb55e9e8a62ba93"
+    },
+    "scenario_engine.py": {
+      "original_sha256": "458e27bd4bb9a221b95e0ac1e833f5ca6c86a19cadab30729b23b5aa85935575",
+      "path": "src/scenario_engine.py",
+      "bytes": 11118,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "948320ff518e6f9327d9f8eecb1edae9b9b268a4af9f4a12bcf255ab99225591",
+      "published_lf_sha256": "7be9e0e5643a3e9de375511fa23a0aac05b11c86883cdd136072994271c1908b"
+    },
+    "scenario_report.py": {
+      "original_sha256": "2292b5103be4739340468838f60daf2e90a0d0b9b75118717ac937a1429e8afc",
+      "path": "src/scenario_report.py",
+      "bytes": 14720,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "231999fec2236dc081662d1fd8ee2e18eaf7128238bcc891658ec4903b0df4a5",
+      "published_lf_sha256": "35b2fe5ec337c5c1aa618d0af3a166f6786e8f6221ecf22d33eca9038729e8d0"
+    },
+    "test_manuscript_accounting_boundary_audit_v21.py": {
+      "original_sha256": "109524f5e4fd8db81a3a00ef3dc13d73318e3f719a4be7e043e05385bac530bf",
+      "path": "tests/legacy/test_manuscript_accounting_boundary_audit_v21.py",
+      "bytes": 3083,
+      "status": "path-only adaptation to portable repository layout",
+      "original_ast_sha256": "c4a7561ef715e158989f9c776fe7997219020a9747601cbc01c7a5a46bb2803c",
+      "published_lf_sha256": "ee8e1d3abd4f5183bda22071b2b41face286cfdd2b1ec9b5bea6b0759270c6ff"
+    },
+    "test_manuscript_baseline_audit_v21.py": {
+      "original_sha256": "afdd02ba4e3895b46cda783fd86d9d8b1601e3e8cae7340f828040665b9e0558",
+      "path": "tests/legacy/test_manuscript_baseline_audit_v21.py",
+      "bytes": 3528,
+      "status": "path-only adaptation to portable repository layout",
+      "original_ast_sha256": "4c9b7230ac61fcde19780dea930f018be152432e8be1833dfd93bbc5bec7745d",
+      "published_lf_sha256": "20e2abc5383d57b5737e2929ab7b84e8d9ed245548d03fd28cf63a16ff00e6b1"
+    },
+    "test_manuscript_io_final_demand_audit_v21.py": {
+      "original_sha256": "27211af28e019e73c9021887f9853350a71cfeea88efc3c958c7e1f22af7eef0",
+      "path": "tests/legacy/test_manuscript_io_final_demand_audit_v21.py",
+      "bytes": 2358,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "b45dccfe28c8f715e6f71bc8ec9892c6bf506430bea8ea98cbe3896774f1c67c",
+      "published_lf_sha256": "27211af28e019e73c9021887f9853350a71cfeea88efc3c958c7e1f22af7eef0"
+    },
+    "test_manuscript_io_import_bridge_audit_v21.py": {
+      "original_sha256": "9b9cd16dc55dda88b304e94f7532be5e7591f7888d595fafdffe0e4c39844924",
+      "path": "tests/legacy/test_manuscript_io_import_bridge_audit_v21.py",
+      "bytes": 2610,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "82ac88c950885741ab332158f1a985c78a3e1e4ac412947d551064b3bd27c015",
+      "published_lf_sha256": "9b9cd16dc55dda88b304e94f7532be5e7591f7888d595fafdffe0e4c39844924"
+    },
+    "test_request7_domestic_eeio_v21.py": {
+      "original_sha256": "26419df4ee239ab0984a08ffc4d81a879a6fc923fac279aeef58c2eb218df2d5",
+      "path": "tests/legacy/test_request7_domestic_eeio_v21.py",
+      "bytes": 8322,
+      "status": "path-only adaptation to portable repository layout",
+      "original_ast_sha256": "de17edf3b00e9b73a6b4bdc1acd61f0b919a425d5e538a3b39a8273a7ed9cc34",
+      "published_lf_sha256": "db04923720922e819548e7557482a6feb1c6c921fb2442bded26624591a768b2"
+    },
+    "test_request7_stage2_environmental_audit_v21.py": {
+      "original_sha256": "4b39ce705ebe7f3bae2022283837f831ba8b65adfc682f731459a1e8ca08cfcb",
+      "path": "tests/legacy/test_request7_stage2_environmental_audit_v21.py",
+      "bytes": 9614,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "abc93602080a53dedbcbe5ab37ecb56ce9b940370bf64be57d95d615d3b80516",
+      "published_lf_sha256": "4b39ce705ebe7f3bae2022283837f831ba8b65adfc682f731459a1e8ca08cfcb"
+    },
+    "test_request7_stage3_heesi_enduse_v21.py": {
+      "original_sha256": "df2653754b052022defe9ad122c330d05066eb77e537a9439bdee3e2a1aa3818",
+      "path": "tests/legacy/test_request7_stage3_heesi_enduse_v21.py",
+      "bytes": 10151,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "01ef835e06f0ec05cec4ba801643e3f651653f2b895ad6ab70e3a463e840cca8",
+      "published_lf_sha256": "df2653754b052022defe9ad122c330d05066eb77e537a9439bdee3e2a1aa3818"
+    },
+    "test_request7_stage3b_mapping_evidence_audit_v21.py": {
+      "original_sha256": "c039fbefc2ddacfb2431707301047a07c642d5c72097aced44c91f9c0759c2e2",
+      "path": "tests/legacy/test_request7_stage3b_mapping_evidence_audit_v21.py",
+      "bytes": 5554,
+      "status": "path-only adaptation to portable repository layout",
+      "original_ast_sha256": "0cff4b562f30bf4b6aef92a3b2743811b03b9d16e151da08ba5b3df6bbdd392f",
+      "published_lf_sha256": "4713f0a136d554c1559fba510bfa36539eff635aa3d01774a713faf10233020e"
+    },
+    "util_app.py": {
+      "original_sha256": "bd019b562b3b63470b4688ca53aec2fa63f6eb6d8a6e1f82e257b690bc383fba",
+      "path": "src/util_app.py",
+      "bytes": 27947,
+      "status": "unchanged Python AST; non-executable internal URL/path comments redacted",
+      "original_ast_sha256": "e79c691d2495f3d0f096cac5ae9b361629f9db762788e85ca4d161065cc9b1c9",
+      "published_lf_sha256": "76cf02529899e3dbe7cbe4132c6cb933f24f802f3cde37bd1e9933baa6313a48"
+    },
+    "util_db.py": {
+      "original_sha256": "82ed09410fe345a8555fb47b081ed65660150fdb8de71567908a2da514b04ba5",
+      "path": "src/util_db.py",
+      "bytes": 8884,
+      "status": "unchanged Python AST; non-executable internal URL/path comments redacted",
+      "original_ast_sha256": "2f3bdf22b7e39fb3b2cd40b9207ecac223f0519718011ac58200f5e6bdb470d8",
+      "published_lf_sha256": "9ba1596b9e42d3100a23d97f595c90b4cb6f608bfd041d4ee5c9d0d0ccec37bb"
+    },
+    "util_export.py": {
+      "original_sha256": "3ba68fd35b95c7e2b5f7b661bf94785d285d45d865d8dc40e63a6cda1a7d2b2a",
+      "path": "src/util_export.py",
+      "bytes": 14297,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "0acd79d5334f2c454ff2cd7aea16d00d46d63c49e80e122271aa1d0f9e252157",
+      "published_lf_sha256": "0632fe86d90b1c5ecd1b9490a6bcbbe6b2dcee78d08d8e14aa9f6514eb540b5d"
+    },
+    "util_mat.py": {
+      "original_sha256": "670812d0bb09f637f59e9839861669c617db64b47a46704967a436b83453a3de",
+      "path": "src/util_mat.py",
+      "bytes": 39679,
+      "status": "unchanged Python AST; non-executable internal URL/path comments redacted",
+      "original_ast_sha256": "b8cfb74cee5965e756989ebd79bad856aeeb2d33487af6f7f7278874a8583098",
+      "published_lf_sha256": "601cb1ad70181e9a1ef595fc9e6d25619c9617c5a06c2bd0de221f70b6e4c21b"
+    },
+    "util_scenario.py": {
+      "original_sha256": "0b8f91c1db739b647a629ffbf65f8a3e60ab4bae28f4dc15818ac261667a8c37",
+      "path": "src/util_scenario.py",
+      "bytes": 20473,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "fa1673b7483aad293724d40285cfaa9678d2366520292338497114890e45d66f",
+      "published_lf_sha256": "1fddcf6742c81c4e857368554b4cb05f4c633d7aafaef37c69562c4b93a88d06"
+    },
+    "util_scenario_v21.py": {
+      "original_sha256": "974cc5ae8c7de443e84cd0991c2d6773213b03baf39284180a963f04f367d1a2",
+      "path": "src/util_scenario_v21.py",
+      "bytes": 62198,
+      "status": "unchanged original copy",
+      "original_ast_sha256": "0fa59954ed2ba7bbe440affb7f756c4a3ac8613f338f04fa5a380ea3dab7b321",
+      "published_lf_sha256": "ae20f891bb529ce0b0f73e6166c7cd30398f9dbf7bb4830803331a31ab9ed850"
+    }
+  },
+  "published_hash_algorithm": "SHA-256 over published source bytes with CRLF and CR line endings normalized to LF",
+  "original_ast_hash_environment": "Python 3.13.5; stored as provenance metadata, not used for cross-version checking"
+}

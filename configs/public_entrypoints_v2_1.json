@@ -1,0 +1,56 @@
+{
+  "audit-domestic-io": {
+    "entrypoint": "experiments/exploratory_validation/domestic_io_model.py",
+    "original": "experiments/legacy/_08_request7_domestic_eeio_v21.py",
+    "original_sha256": "f4ca6bb2e14b112e220b0f514d5a36b1a233255a638897ca7be493582c26e369",
+    "role": "exploratory validation (not manuscript baseline)"
+  },
+  "test-domestic-io": {
+    "entrypoint": "tests/exploratory_validation/test_domestic_io_model.py",
+    "original": "tests/legacy/test_request7_domestic_eeio_v21.py",
+    "original_sha256": "26419df4ee239ab0984a08ffc4d81a879a6fc923fac279aeef58c2eb218df2d5",
+    "role": "historical regression assertions"
+  },
+  "audit-environmental-extensions": {
+    "entrypoint": "experiments/exploratory_validation/environmental_extension_audit.py",
+    "original": "experiments/legacy/_09_request7_stage2_environmental_audit_v21.py",
+    "original_sha256": "d647891c28cb0f3be5858e957c3850900cfcc32557019d04ff190f70d07fa68e",
+    "role": "exploratory validation (not manuscript baseline)"
+  },
+  "test-environmental-extensions": {
+    "entrypoint": "tests/exploratory_validation/test_environmental_extension_audit.py",
+    "original": "tests/legacy/test_request7_stage2_environmental_audit_v21.py",
+    "original_sha256": "4b39ce705ebe7f3bae2022283837f831ba8b65adfc682f731459a1e8ca08cfcb",
+    "role": "historical regression assertions"
+  },
+  "audit-heesi-allocation": {
+    "entrypoint": "experiments/exploratory_validation/heesi_energy_allocation.py",
+    "original": "experiments/legacy/_10_request7_stage3_heesi_enduse_v21.py",
+    "original_sha256": "c3be18c7c7508e54dfadde3798fd94689cc2ede4a5a55d2a3fe6fbb3d2c7b887",
+    "role": "exploratory validation (not manuscript baseline)"
+  },
+  "test-heesi-allocation": {
+    "entrypoint": "tests/exploratory_validation/test_heesi_energy_allocation.py",
+    "original": "tests/legacy/test_request7_stage3_heesi_enduse_v21.py",
+    "original_sha256": "df2653754b052022defe9ad122c330d05066eb77e537a9439bdee3e2a1aa3818",
+    "role": "historical regression assertions"
+  },
+  "validate-sector-mapping": {
+    "entrypoint": "experiments/exploratory_validation/sector_mapping_validation.py",
+    "original": "experiments/legacy/_11_request7_stage3b_mapping_evidence_audit_v21.py",
+    "original_sha256": "9e63a2ba79f0ca7bc6a5956dfbb18263990e4c5e7b9220d58892f9cd5da94626",
+    "role": "exploratory validation (not manuscript baseline)"
+  },
+  "test-sector-mapping": {
+    "entrypoint": "tests/exploratory_validation/test_sector_mapping_validation.py",
+    "original": "tests/legacy/test_request7_stage3b_mapping_evidence_audit_v21.py",
+    "original_sha256": "c039fbefc2ddacfb2431707301047a07c642d5c72097aced44c91f9c0759c2e2",
+    "role": "historical regression assertions"
+  },
+  "audit-baseline-energy": {
+    "entrypoint": "experiments/exploratory_validation/baseline_energy_diagnostics.py",
+    "original": "experiments/legacy/_12_request7_baseline_readonly_probe.py",
+    "original_sha256": "4a061bc1bffa5345d49ed5affae62bf5171535e30d6b3e543fe201e5bfff9aa8",
+    "role": "exploratory validation (not manuscript baseline)"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "repository_package": "v2.1-prepublication-research-package",
+  "numerical_model_version": "EEIO v2.1, unchanged computational procedures",
+  "prepared": "2026-11-10",
+  "changes": "descriptive exploratory and test entrypoints; archived original Request #7 modules; hidden CLI aliases; docs and verification tests",
+  "source_original_count": 36,
+  "preservation_manifest": "configs/original_source_manifest.json",
+  "data_input_manifest": "data/metadata/input_manifest.json",
+  "public_entrypoints_manifest": "configs/public_entrypoints_v2_1.json",
+  "prior_package_manifest": "configs/history/release_manifest_v2.json",
+  "live_manuscript_RQ_replication": "not executed",
+  "optional_HEESI_mapping_tests": "not executed; missing inputs",
+  "files": {
+    "README.md": {
+      "sha256": "fd61627960ac98142192e6a86ce562631c290883f8657f4306946e85f682ed7f",
+      "bytes": 15560
+    },
+    "run_experiments.py": {
+      "sha256": "3e75dad6df56ff4419b0b783183e03c5bc3565141daaeb1df274c622cb01fbde",
+      "bytes": 13749
+    },
+    "docs/EXPERIMENT_INDEX.md": {
+      "sha256": "8eadbd2d7808820db38f1894c2fd82e3de0f11e03c93cfb0e66f3256e772b07c",
+      "bytes": 8048
+    },
+    "docs/EXPERIMENT_HISTORY.md": {
+      "sha256": "57d040fbd4fd291724fa129fe3e3f41a89d166bd3b446093256b424e14bf37b1",
+      "bytes": 4102
+    },
+    "docs/VERIFICATION_STATUS.md": {
+      "sha256": "28dcde76d41cf67760a52296d05744ec3d7148c661e60c86f036d231676b5b45",
+      "bytes": 4144
+    },
+    "configs/original_source_manifest.json": {
+      "sha256": "a9cf559f9b07aab2dcf3dfa49d88dd3dc9eac3bc80e3894c3476b0ca87a33450",
+      "bytes": 14029
+    },
+    "configs/public_entrypoints_v2_1.json": {
+      "sha256": "ddb0a77369364b10e891448a6ccac7af6e1dd19d19f321a82ebb9de04f6d31b8",
+      "bytes": 3097
+    },
+    "database/research_schema.sql": {
+      "sha256": "e78246555540aa0fbb422bde4fc1a2b02073332a19316cbf75256f61adf328b0",
+      "bytes": 12771
+    },
+    "database/research_seed.sql": {
+      "sha256": "f10c27c9759152f67402e291781523eaffd476bc28624c3a18ded95bd98a80d4",
+      "bytes": 13568
+    },
+    "data/metadata/input_manifest.json": {
+      "sha256": "b28a7e6289cb05ef8ae0be2738b170add8e1cfdc22deff6c11855115b1892693",
+      "bytes": 5421
+    },
+    "docs/RELEASE_NOTES_v2_1.md": {
+      "sha256": "b0aa4ab62876dde54b29f72fbd937b076359dbf28ade85c6a55f5eef5b0a9f78",
+      "bytes": 2704
+    }
+  }
+}
