@@ -1,0 +1,48 @@
+# Credentials, environment settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+*.sql
+*.sql.gz
+!database/research_schema.sql
+!database/research_seed.sql
+*.sqlite*
+*.db
+
+# Python and development artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+*.tmp
+
+# The original source code requires local static/data, but public data lives in data/inputs.
+# Keeping the working copy untracked prevents accidental Flask static-file exposure on GitHub.
+static/data/
+static/buf/
+
+# Internal/source dumps, HEESI evidence and unapproved mappings not shipped
+backup/
+dumps/
+local_data/
+private_data/
+db_eeio.sql
+/heesi2021_electricity_enduse_2020.csv
+/sector_mapping_2020_review_notes.csv
+output/
+
+# Results are local, except the explicitly labelled manuscript reference values
+results/*
+!results/.gitkeep
+!results/reference/
+!results/reference/manuscript_reported_benchmarks.json
