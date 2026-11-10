@@ -1,4 +1,4 @@
-# Indonesia EEIO v2.1 — scenario-driven decarbonization research (repository package v2.1; release candidate)
+# Indonesia EEIO — scenario-driven decarbonization research (repository package v2.1; release candidate)
 
 Research companion to *A Scenario-Driven Environmentally Extended Input–Output Framework for Sectoral Decarbonization Policy Analysis in Indonesia* (manuscript in preparation).
 
