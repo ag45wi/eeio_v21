@@ -78,7 +78,7 @@ mysql -u research_user -p eeio_v21_research < database/research_schema.sql
 mysql -u research_user -p eeio_v21_research < database/research_seed.sql
 ```
 
-The schema has **19 non-user tables**. Only seven tables contain seed records: `energy_lst` (4 rows), `sector_agg` (14), `sector_lst` (215, comprising 185 detailed products plus aggregate rows), `fec_byyear` (8), `conversion_factor` (4), `co2_factor` (4), and `scenario_type` (7). The remaining scenario/result structures are empty. No historical scenario definitions, web users, credentials or 11k+ scenario-sector execution records are bundled. See [Research database](docs/RESEARCH_DATABASE.md).
+The schema has **19 non-user tables**. Only seven tables contain seed records: `energy_lst` (4 rows), `sector_agg` (14), `sector_lst` (215, comprising 185 detailed products plus aggregate rows), `fec_byyear` (8), `conversion_factor` (4), `co2_factor` (4), and `scenario_type` (7). The remaining scenario/result structures are empty. No historical scenario definitions, web users, credentials or 11k+ scenario-sector execution records are bundled. 
 
 Create a local private `.env` by copying `.env.example` and setting **your own** `APP_KEY`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME=eeio_v21_research`. The preserved original `src/util_db.py` assumes a MySQL server on `localhost`. **Never commit `.env` or a full database dump.** Prefer an isolated research DB account; read-only access is appropriate for inspection, but parts of the original model builder may require write access to result tables.
 
@@ -150,8 +150,6 @@ python run_experiments.py run manufacturing-m0-m8 -- --target-sector 111 --facto
 
 Results are saved to new, non-overwriting directories under `results/manuscript/`; choose a different `--run-dir` when repeating a task. The runner saves an output manifest with available code and CSV checksums. It **does not currently snapshot live MariaDB table contents**, so repository data-provenance hashes are necessary but not sufficient for complete experimental traceability.
 
-See [Experiment index](docs/EXPERIMENT_INDEX.md) for the output of every task, [Methodological boundaries](docs/METHODOLOGICAL_BOUNDARIES.md) for the fixed `A/L` and accounting assumptions, and [Verification status](docs/VERIFICATION_STATUS.md) before comparing results with the paper.
-
 ## 6. Descriptive commands for exploratory validation (repository v2.1)
 
 The historical development used sequential *Requests #1–#7*. Those were project-work blocks, **not** the manuscript RQ1–RQ4. For an external researcher, the public CLI and file names now describe the scientific operation. The original five numbered Request #7 scripts remain **byte-identical** in `experiments/legacy/`; compatibility imports and old CLI aliases are retained solely for traceability.
@@ -181,7 +179,7 @@ python run_experiments.py run validate-sector-mapping --dry-run
 python run_experiments.py run audit-baseline-energy --dry-run
 ```
 
-Descriptive regression names are `test-domestic-io`, `test-environmental-extensions`, `test-heesi-allocation`, and `test-sector-mapping`. The last two cannot currently pass without source-anchored HEESI and mapping/reviewer evidence. Historical command aliases still resolve with a deprecation notice; see [Experiment history and rename map](docs/EXPERIMENT_HISTORY.md).
+Descriptive regression names are `test-domestic-io`, `test-environmental-extensions`, `test-heesi-allocation`, and `test-sector-mapping`. The last two cannot currently pass without source-anchored HEESI and mapping/reviewer evidence. Historical command aliases still resolve with a deprecation notice; 
 
 ## 7. Research scope and interpretation
 
@@ -193,18 +191,7 @@ The domestic IO, final-demand, physical electricity and accounting-boundary inve
 
 **Do not make this repository public automatically.** Before publication: (1) obtain author/institution approval for the code; (2) confirm redistribution permissions for every dataset and give original BPS/energy-source citations; (3) review archived `src/app.py` and `src/util_db.py` for application security before any deployment; (4) run the exact legacy RQ1–RQ4 tasks against the isolated research DB; (5) reconcile the 2020 legacy-versus-corrected IO difference transparently; (6) tag the verified software release, add an approved software license and ideally deposit an archived DOI snapshot.
 
-There is intentionally **no blanket software or third-party data license** in this release candidate; institution-approved licenses and attribution must be supplied before public redistribution. See [Publishing guide](docs/PUBLISHING_TO_GITHUB.md) and [Publication gate](docs/PUBLICATION_GATE.md).
+There is intentionally **no blanket software or third-party data license** in this release candidate; institution-approved licenses and attribution must be supplied before public redistribution. 
 
-### Documentation
-
-- [Research data provenance and version differences](docs/DATA_REQUIREMENTS.md)
-- [Research database seed and schema](docs/RESEARCH_DATABASE.md)
-- [Experiment index by RQ](docs/EXPERIMENT_INDEX.md)
-- [Experiment history and rename mapping](docs/EXPERIMENT_HISTORY.md)
-- [Repository v2.1 release notes](docs/RELEASE_NOTES_v2_1.md)
-- [Known scientific/accounting boundaries](docs/METHODOLOGICAL_BOUNDARIES.md)
-- [Verification status](docs/VERIFICATION_STATUS.md)
-- [Reproducibility checklist](docs/REPRODUCIBILITY_CHECKLIST.md)
-- [Release publication checklist](docs/PUBLICATION_GATE.md)
 
 **Suggested manuscript availability wording once the public tagged version has been independently verified:** “The experimental Python scripts, documented scenario definitions, input-data provenance records, selected processed datasets and research database initialization scripts are available in the versioned repository [URL; release/DOI]. Data sources, model-year and transaction-boundary choices, and reproduction procedures are documented in its README.”
