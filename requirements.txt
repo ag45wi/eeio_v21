@@ -1,0 +1,16 @@
+# Installation aid based on IMPORTS in the supplied source, not a verified
+# frozen environment. Record pip freeze from the original experiment system.
+numpy
+pandas
+scipy
+Flask
+python-dotenv
+flask-mysqldb
+mysqlclient
+Flask-Mail
+itsdangerous
+matplotlib
+plotly
+openpyxl
+# Optional: static Plotly export (only if needed)
+# kaleido
