@@ -1,0 +1,19 @@
+{
+  "source": "manuscript_eeio scenario__11.10.docx, as supplied by the research authors",
+  "interpretation": "Manuscript-reported comparison values; not newly computed or independently verified during this packaging task.",
+  "baseline_aggregate_mtco2": {
+    "2016": 533.358,
+    "2020": 650.935
+  },
+  "all_sector_electricity_minus_10pct_mtco2": {
+    "2016": 487.489,
+    "2020": 598.456
+  },
+  "interaction_s0_s3_mtco2": {
+    "S0": 650.93474,
+    "S1": 650.809332,
+    "S2": 545.978131,
+    "S3": 545.877805
+  },
+  "note": "Match the exact legacy IO input, energy extension, DB snapshot, source code and model year before comparing."
+}
