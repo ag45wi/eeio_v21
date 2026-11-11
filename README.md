@@ -44,7 +44,7 @@ python run_experiments.py data-prepare --dry-run
 python run_experiments.py data-prepare
 ```
 
-The second command stages the exact input files to `static/data/2016/`, `static/data/2020/` and `static/data/`, and creates empty local `static/buf/<year>/tmp` folders as needed. This staging area is Git-ignored. Changed local data are not overwritten unless `--force` is explicitly used.
+The second command stages the exact input files to `static/data/2016/`, `static/data/2020/` and `static/data/`, and creates empty local `static/buf/<year>/tmp` folders as needed. Note that changed local data are not overwritten unless `--force` is explicitly used.
 
 ## 3. Set up an isolated MariaDB/MySQL research database
 
