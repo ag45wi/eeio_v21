@@ -31,7 +31,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-First check the canonical inputs, the 185-product tables, and the sanitized SQL — this step **does not** run the model:
+First check the canonical inputs, the 185-product tables, and the SQL — this step **does not** run the model:
 
 ```sh
 python run_experiments.py data-check
@@ -124,7 +124,7 @@ python run_experiments.py run rq4-sector-sensitivity
 python run_experiments.py run rq4-cross-year
 ```
 
-**Default IO boundary:** The original legacy manuscript runner reads `static/data/<year>/io_ind_<year>.csv`. Those exact author-supplied files are included and locally staged by `data-prepare`. 
+**Default IO boundary:** The original legacy manuscript runner reads `static/data/<year>/io_ind_<year>.csv`. Those files are included and locally staged by `data-prepare`. 
 
 For the two separate manufacturing applications:
 
@@ -157,5 +157,5 @@ python run_experiments.py verify-data-backed
 
 ## 7. Research scope and interpretation
 
-The original model uses a fixed Leontief economic structure per model year, a sectorally allocated energy-extension representation, and a historical **0.877 tCO2/MWh JAMALI electricity emission-factor proxy**. Scenario interventions change electricity use and/or electricity EF; they do **not** alter the IO technical coefficients or Leontief inverse within a model year. The 2016 and 2020 structures are compared separately. The outcomes represent **model-defined counterfactual EEIO responses**, not verified national avoided emissions, predictions or optimization results.
+The original model uses a fixed Leontief economic structure per model year, a sectorally allocated energy-extension representation, and a historical 0.877 tCO2/MWh JAMALI electricity emission-factor proxy. Scenario interventions change electricity use and/or electricity EF; they do not alter the IO technical coefficients or Leontief inverse within a model year. The 2016 and 2020 structures are compared separately. The outcomes reflect hypothetical baseline EEIO responses rather than verified national emissions reductions, forecasts, or optimization results
 
