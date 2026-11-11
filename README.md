@@ -98,7 +98,7 @@ APP_KEY="random_secret_key"
 ```
 The APP_KEY is used to initialize the application's secure serializer and must be defined even when executing the batch experiments.
 
-Generate a random key using: 
+A random key can be generated using: 
 `python -c "import secrets; print(secrets.token_urlsafe(32))"`
 
 ### 5.2. Run the manuscript experiments
