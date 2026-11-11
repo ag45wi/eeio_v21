@@ -19,13 +19,6 @@ The repository preserves the **original scenario-processing and EEIO calculation
 | `database/` | Sanitized SQL schema and seven tables of model reference records | **No `user` table, password hashes, accounts or execution history** |
 | `scripts/data_tools.py` | Verification and safe staging into legacy local directory layout | Standard library only |
 | `results/reference/` | Author-manuscript benchmark values for later comparison | **Reported values, not recomputed values** |
-| `docs/` | Run index, provenance and methodological limitations | See links below |
-
-The original `data.zip` also contained two exact duplicate 2020 IO files; those duplicates are recorded in `data/metadata/input_manifest.json`, not committed again. The three **distinct** 2020 IO files are retained separately:
-
-- `io_ind_2020.csv`: **legacy total-table** version; the original 2020 batch scripts resolve this filename.
-- `io_ind_2020_total_BPS_verified.csv`: author-labelled **verified/corrected total-table** version, whose SHA-256 is required by the read-only manufacturing pilot.
-- `io_ind_2020_domestic.csv`: **domestic-transactions** table used by exploratory domestic-accounting investigations and regression tests.
 
 ## 2. Installation and input preparation
 
@@ -133,7 +126,7 @@ python run_experiments.py run rq4-cross-year
 
 **Default IO boundary:** The original legacy manuscript runner reads `static/data/<year>/io_ind_<year>.csv`. Those exact author-supplied files are included and locally staged by `data-prepare`. 
 
-For the two separate manufacturing applications, the **author-verified 2020 total** IO is automatically staged at the required filename:
+For the two separate manufacturing applications:
 
 ```sh
 python run_experiments.py run manufacturing-m0-m8 -- --target-sector 114 --factor-set LEGACY_JAMALI_2016
