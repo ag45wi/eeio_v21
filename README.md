@@ -51,7 +51,7 @@ python run_experiments.py data-prepare --dry-run
 python run_experiments.py data-prepare
 ```
 
-The second command stages the exact input files to `static/data/2016/`, `static/data/2020/` and `static/data/`, and creates empty local `static/buf/<year>/tmp` folders as needed. This staging area is Git-ignored. Changed local data are **not** overwritten unless you explicitly use `--force`; canonical `data/inputs` files are never modified.
+The second command stages the exact input files to `static/data/2016/`, `static/data/2020/` and `static/data/`, and creates empty local `static/buf/<year>/tmp` folders as needed. This staging area is Git-ignored. Changed local data are not overwritten unless `--force` is explicitly used.
 
 ## 3. Set up an isolated MariaDB/MySQL research database
 
@@ -63,7 +63,7 @@ Create an EMPTY research database using an account authorized to create and popu
 CREATE DATABASE eeio_v21_research;
 ```
 
-Then import the SQL scripts. Example terminal commands (replace `research_user` with your own database username):
+Then import the SQL scripts. Example terminal commands (replace `research_user` with the relevant database username):
 
 ```sh
 mysql -u research_user -p eeio_v21_research < database/research_schema.sql
@@ -72,7 +72,7 @@ mysql -u research_user -p eeio_v21_research < database/research_seed.sql
 
 The schema has **19 non-user tables**. Only seven tables contain seed records: `energy_lst` (4 rows), `sector_agg` (14), `sector_lst` (215, comprising 185 detailed products plus aggregate rows), `fec_byyear` (8), `conversion_factor` (4), `co2_factor` (4), and `scenario_type` (7). The remaining scenario/result structures are empty. 
 
-Create a local private `.env` by copying `.env.example` and setting **your own** `APP_KEY`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME=eeio_v21_research`. The preserved original `src/util_db.py` assumes a MySQL server on `localhost`. 
+Create a local private `.env` by copying `.env.example` and setting the appropriate `APP_KEY`, `DB_USER`, `DB_PASSWORD`, and `DB_NAME=eeio_v21_research`.  
 
 ## 4. Run tests without a live database
 
@@ -93,15 +93,15 @@ The HEESI allocation and sector-mapping validation tests additionally require th
 
 ### 5.1 Configure environment variables
 
-Before running the manuscript experiments, create a `.env` file in the repository's root directory. You can copy the supplied `.env.example` file and edit it with your own database credentials.
+Before running the manuscript experiments, create a `.env` file in the repository's root directory. Copy the supplied `.env.example` file and edit it with the appropriate database credentials.
 ```sh
 # EEIO Research Database
-DB_USER="your_mysql_username"
-DB_PASSWORD="your_mysql_password"
+DB_USER="mysql_username"
+DB_PASSWORD="mysql_password"
 DB_NAME="eeio_v21_research"
 
 # Application security key
-APP_KEY="your_random_secret_key"
+APP_KEY="random_secret_key"
 ```
 The APP_KEY is used to initialize the application's secure serializer and must be defined even when executing the batch experiments.
 
